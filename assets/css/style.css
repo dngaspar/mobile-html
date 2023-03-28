@@ -1,0 +1,40 @@
+
+.top {
+    display: flex;
+    margin-top: 50px;
+    justify-content: center;
+    gap: 20px;
+}
+
+.top input {
+    min-width: 250px;
+    height: 30px;
+}
+
+.top a {
+    background-color: aqua;
+    margin: auto 0 auto 0;
+    padding: 10px;
+    cursor: pointer;
+}
+
+.mobile {
+    margin: 50px 0 100px 0;
+    display: flex;
+    justify-content: center;
+    z-index: 999;
+}
+
+.mobile iframe {
+    padding: 100px 50px 50px 50px;
+    width: 350px;
+    height: 700px;
+    margin: -50px -60px;
+    border: none;
+    background-image: url("../image/mobile1.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 400px 800px;
+    background-position-x: 27px;
+    background-position-y: 40px;
+}
